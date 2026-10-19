@@ -11,9 +11,9 @@
     {
       "pluginId": "stella.calendar",
       "hostApi": "^1.0.0",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "path": "../plugins/calendar",
-      "sha256": "0c9ff0f2701eb31b45b8ba4c5b724ff8089059382682142eae2ca1fb69478471"
+      "sha256": "9066adf113730dfd6e7bd7255a005290d9a43fa02b3d3327f3f2f53bdb6cd2fe"
     },
     {
       "pluginId": "stella.tasks",
