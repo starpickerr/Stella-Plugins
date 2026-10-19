@@ -25,9 +25,9 @@
     {
       "pluginId": "stella.email",
       "hostApi": "^1.0.0",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "path": "../plugins/email",
-      "sha256": "509f2c637e3051d96ade2037a384fe1729b148d9cb76cb387979a60ec23f617d"
+      "sha256": "255dcd2c7b070c10d5b87e005d4671288edce7cdfdd307403e86a546fb3faf28"
     },
     {
       "pluginId": "stella.elearning",
