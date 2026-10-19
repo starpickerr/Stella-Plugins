@@ -32,9 +32,9 @@
     {
       "pluginId": "stella.elearning",
       "hostApi": "^1.0.0",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "path": "../plugins/elearning",
-      "sha256": "6f3277f9c5a282f0e7b9e677fb15ad45832636077e4eb753f88c4f42ba968298"
+      "sha256": "877ecf3504be4b22e899f8b8e512e0e224b834be3b08318a0a2b270fb49305d2"
     },
     {
       "pluginId": "stella.briefing",
