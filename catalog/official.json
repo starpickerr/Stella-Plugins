@@ -4,9 +4,9 @@
     {
       "pluginId": "stella.bills",
       "hostApi": "^1.0.0",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "path": "../plugins/bills",
-      "sha256": "c1ab5aee1bac850fc82cc0125ff9ef03cdc5a684f52b1b4821bbaeadca143c12"
+      "sha256": "811d5b0f4ed677572c14bbbe84ef3d367b35047266d464ca5f7d06fd4805ae07"
     },
     {
       "pluginId": "stella.calendar",
