@@ -1,0 +1,54 @@
+{
+  "coreApi": "1.0.0",
+  "plugins": [
+    {
+      "pluginId": "stella.bills",
+      "hostApi": "^1.0.0",
+      "version": "1.0.0",
+      "path": "/Users/starpickerr/Desktop/Codes/Stella-Plugins/plugins/bills",
+      "sha256": "4762b158d0f02d855ffc3fd468c33da09d3e79b4677d40aafc18d71d474a71d0"
+    },
+    {
+      "pluginId": "stella.calendar",
+      "hostApi": "^1.0.0",
+      "version": "1.0.0",
+      "path": "/Users/starpickerr/Desktop/Codes/Stella-Plugins/plugins/calendar",
+      "sha256": "77da3670e9cdcba61a1a6316f2fe03ac833d9f89190d0d4c0262a6b0f3ae24d0"
+    },
+    {
+      "pluginId": "stella.tasks",
+      "hostApi": "^1.0.0",
+      "version": "1.0.0",
+      "path": "/Users/starpickerr/Desktop/Codes/Stella-Plugins/plugins/tasks",
+      "sha256": "1fcd3614b0c3a28ec3613296656e039a63805a55108ae06a475e9d81516af01a"
+    },
+    {
+      "pluginId": "stella.email",
+      "hostApi": "^1.0.0",
+      "version": "1.0.0",
+      "path": "/Users/starpickerr/Desktop/Codes/Stella-Plugins/plugins/email",
+      "sha256": "c41694f60a1750493bf68ce39961dd607d7ec3367591d37a04c095b995ae4d61"
+    },
+    {
+      "pluginId": "stella.elearning",
+      "hostApi": "^1.0.0",
+      "version": "1.0.0",
+      "path": "/Users/starpickerr/Desktop/Codes/Stella-Plugins/plugins/elearning",
+      "sha256": "d0146a038455529abcbd236c63005419bc4bdad5d00799bcf3ae8b7bf52daa98"
+    },
+    {
+      "pluginId": "stella.briefing",
+      "hostApi": "^1.0.0",
+      "version": "1.0.0",
+      "path": "/Users/starpickerr/Desktop/Codes/Stella-Plugins/plugins/briefing",
+      "sha256": "103ca6e082071f72e594d8cb8dfd59121de64f6327536bac76723592b2cd66c4"
+    },
+    {
+      "pluginId": "stella.automation",
+      "hostApi": "^1.0.0",
+      "version": "1.0.0",
+      "path": "/Users/starpickerr/Desktop/Codes/Stella-Plugins/plugins/automation",
+      "sha256": "0f0bf2ea7a0e60f1e4d5e4cb05bdf6d1cb7e8cfeb8730c1938285ce04da16652"
+    }
+  ]
+}
