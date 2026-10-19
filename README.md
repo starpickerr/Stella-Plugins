@@ -13,3 +13,4 @@ First-party business plugins for [Stella](https://github.com/starpickerr/Stella)
 | `plugins/automation` | `stella.automation@1` | Rules/mutations; Core keeps lease/dispatch |
 
 Packages must not import Stella `agent.*`. Catalog digests live in `catalog/official.json`.
+Each entry’s `path` is relative to that catalog file (for example `../plugins/tasks`); do not commit machine-local absolute paths. Published installs should use a signed `url` plus `sha256` once release assets exist.
