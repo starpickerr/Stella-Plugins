@@ -39,9 +39,9 @@
     {
       "pluginId": "stella.briefing",
       "hostApi": "^1.0.0",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "path": "../plugins/briefing",
-      "sha256": "4a8a2c5be8a048372986ce6f66ca627e543dd02325bc72329b5ae5ff9da7657f"
+      "sha256": "ff98ce4bf516d3b85ea55da84e9f31951589d1b40d893cda244762dc2862fde4"
     },
     {
       "pluginId": "stella.automation",
