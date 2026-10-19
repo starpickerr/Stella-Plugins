@@ -11,37 +11,37 @@
     {
       "pluginId": "stella.calendar",
       "hostApi": "^1.0.0",
-      "version": "1.0.2",
+      "version": "1.1.0",
       "path": "../plugins/calendar",
-      "sha256": "db899dc4f2574554ce4c5395adb55b132257ef9e1681b4f32c842e5b92664a75"
+      "sha256": "0c9ff0f2701eb31b45b8ba4c5b724ff8089059382682142eae2ca1fb69478471"
     },
     {
       "pluginId": "stella.tasks",
       "hostApi": "^1.0.0",
-      "version": "1.0.1",
+      "version": "1.1.0",
       "path": "../plugins/tasks",
-      "sha256": "ba71c11e11a2bf115fbb1686549ccf86aeb3e9af311aa75d5c750a5e862661ea"
+      "sha256": "20df046ee4e93eabd6d6c205f4e5c569600482907b40ef905b5e73bd14a05c28"
     },
     {
       "pluginId": "stella.email",
       "hostApi": "^1.0.0",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "path": "../plugins/email",
-      "sha256": "4631bcc0873a42a69808c8b205556a0f32f947095b800a1305d4efc2ad2a02da"
+      "sha256": "509f2c637e3051d96ade2037a384fe1729b148d9cb76cb387979a60ec23f617d"
     },
     {
       "pluginId": "stella.elearning",
       "hostApi": "^1.0.0",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "path": "../plugins/elearning",
-      "sha256": "578e59c5fefa0507653c2ffc1fb07a6e92afc0799fe79bd33dd996f5aba662e9"
+      "sha256": "6f3277f9c5a282f0e7b9e677fb15ad45832636077e4eb753f88c4f42ba968298"
     },
     {
       "pluginId": "stella.briefing",
       "hostApi": "^1.0.0",
-      "version": "1.0.1",
+      "version": "1.1.0",
       "path": "../plugins/briefing",
-      "sha256": "e9746c04d0574da18857919b80cf474db00326064af7d95340d2d825a5f084a9"
+      "sha256": "d3780b0968262b1ff7263d8885318defef4a794045d8323f5b2f5cec843a23fe"
     },
     {
       "pluginId": "stella.automation",
