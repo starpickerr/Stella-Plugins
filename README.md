@@ -12,5 +12,8 @@ First-party business plugins for [Stella](https://github.com/starpickerr/Stella)
 | `plugins/briefing` | `stella.briefing@1` | Rules, snapshots, outbox; sources via Core directory |
 | `plugins/automation` | `stella.automation@1` | Rules/mutations; Core keeps lease/dispatch |
 
-Packages must not import Stella `agent.*`. Catalog digests live in `catalog/official.json`.
-Each entry’s `path` is relative to that catalog file (for example `../plugins/tasks`); do not commit machine-local absolute paths. Published installs should use a signed `url` plus `sha256` once release assets exist.
+Packages must not import Stella `agent.*`.
+
+- `catalog/official.json` — checkout installs; each `path` is relative to the catalog file (for example `../plugins/tasks`).
+- `catalog/release.example.json` — template for GitHub Release `url` + `sha256`.
+- `scripts/build_release_catalog.py` — builds signed ZIPs under `dist/signed/` and writes local `catalog/release.json` with relative `url`s (requires `STELLA_PLUGIN_SIGNING_SECRET`). Do not commit machine-local absolute paths.

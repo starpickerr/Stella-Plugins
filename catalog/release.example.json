@@ -1,0 +1,12 @@
+{
+  "coreApi": "1.0.0",
+  "plugins": [
+    {
+      "pluginId": "stella.bills",
+      "hostApi": "^1.0.0",
+      "version": "1.0.0",
+      "url": "https://github.com/starpickerr/Stella-Plugins/releases/download/v1.0.0/stella.bills-1.0.0.zip",
+      "sha256": "REPLACE_WITH_PACKAGE_TREE_DIGEST"
+    }
+  ]
+}
