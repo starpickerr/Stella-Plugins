@@ -18,9 +18,9 @@
     {
       "pluginId": "stella.tasks",
       "hostApi": "^1.0.0",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "path": "../plugins/tasks",
-      "sha256": "4e56cfc66f71618a13e48b374b972eb9250fe7f4f96bcdeebf37cffcc4fdf9af"
+      "sha256": "8f376a3c83402e909959413e1dad9f27648ca886e069fdd5e5ba88ed5cee69a2"
     },
     {
       "pluginId": "stella.email",
