@@ -4,16 +4,16 @@
     {
       "pluginId": "stella.bills",
       "hostApi": "^1.0.0",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "path": "../plugins/bills",
-      "sha256": "4762b158d0f02d855ffc3fd468c33da09d3e79b4677d40aafc18d71d474a71d0"
+      "sha256": "0673970153c549503e5d5b11aaff5797bbc6e10e86b1167c84bf4375a000a749"
     },
     {
       "pluginId": "stella.calendar",
       "hostApi": "^1.0.0",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "path": "../plugins/calendar",
-      "sha256": "77da3670e9cdcba61a1a6316f2fe03ac833d9f89190d0d4c0262a6b0f3ae24d0"
+      "sha256": "497dd8b0f7971e7f7706e6fab5ce7376b46a919732d36f6b791c1de107c3c549"
     },
     {
       "pluginId": "stella.tasks",
