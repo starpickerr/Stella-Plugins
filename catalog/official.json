@@ -25,16 +25,16 @@
     {
       "pluginId": "stella.email",
       "hostApi": "^1.0.0",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "path": "../plugins/email",
-      "sha256": "88c13f6d0e785850f299edd86e196f9fcdaa5a6536e8e3f34ae9fab3445d99fb"
+      "sha256": "7d0d7ea01dc093b80ca41b0286f41071352ae9f2a43bb1d28936897e4362602e"
     },
     {
       "pluginId": "stella.elearning",
       "hostApi": "^1.0.0",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "path": "../plugins/elearning",
-      "sha256": "de7e6b9842431175f95ef28dd65068fb968ec660a08810f96e58ecbd07c9c2f3"
+      "sha256": "da5c919e46379809d8a6403d11c586b2fba0a4af49946b096552605e17882243"
     },
     {
       "pluginId": "stella.briefing",
@@ -46,9 +46,9 @@
     {
       "pluginId": "stella.automation",
       "hostApi": "^1.0.0",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "path": "../plugins/automation",
-      "sha256": "9dbc87e339fac0e9d2c930d6fccc89cadc31e7189028d97b3b4baaa492d6cb64"
+      "sha256": "6361fd7b19c750244b01746d55b29998e4c0d4cf93c54a2ff510eb7c590c7bd1"
     }
   ]
 }
