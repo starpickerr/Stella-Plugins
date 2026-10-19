@@ -4,51 +4,51 @@
     {
       "pluginId": "stella.bills",
       "hostApi": "^1.0.0",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "path": "../plugins/bills",
-      "sha256": "0673970153c549503e5d5b11aaff5797bbc6e10e86b1167c84bf4375a000a749"
+      "sha256": "2770106aab1e87418e0b4abf34dc7dd5f347e59b3500787071303f6979289944"
     },
     {
       "pluginId": "stella.calendar",
       "hostApi": "^1.0.0",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "path": "../plugins/calendar",
-      "sha256": "497dd8b0f7971e7f7706e6fab5ce7376b46a919732d36f6b791c1de107c3c549"
+      "sha256": "db899dc4f2574554ce4c5395adb55b132257ef9e1681b4f32c842e5b92664a75"
     },
     {
       "pluginId": "stella.tasks",
       "hostApi": "^1.0.0",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "path": "../plugins/tasks",
-      "sha256": "fcb1be052786d0e1207d3c4979c44052e481344b2af56e18959bf65295bdccd1"
+      "sha256": "ba71c11e11a2bf115fbb1686549ccf86aeb3e9af311aa75d5c750a5e862661ea"
     },
     {
       "pluginId": "stella.email",
       "hostApi": "^1.0.0",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "path": "../plugins/email",
-      "sha256": "c41694f60a1750493bf68ce39961dd607d7ec3367591d37a04c095b995ae4d61"
+      "sha256": "4631bcc0873a42a69808c8b205556a0f32f947095b800a1305d4efc2ad2a02da"
     },
     {
       "pluginId": "stella.elearning",
       "hostApi": "^1.0.0",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "path": "../plugins/elearning",
-      "sha256": "d0146a038455529abcbd236c63005419bc4bdad5d00799bcf3ae8b7bf52daa98"
+      "sha256": "578e59c5fefa0507653c2ffc1fb07a6e92afc0799fe79bd33dd996f5aba662e9"
     },
     {
       "pluginId": "stella.briefing",
       "hostApi": "^1.0.0",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "path": "../plugins/briefing",
-      "sha256": "103ca6e082071f72e594d8cb8dfd59121de64f6327536bac76723592b2cd66c4"
+      "sha256": "e9746c04d0574da18857919b80cf474db00326064af7d95340d2d825a5f084a9"
     },
     {
       "pluginId": "stella.automation",
       "hostApi": "^1.0.0",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "path": "../plugins/automation",
-      "sha256": "0f0bf2ea7a0e60f1e4d5e4cb05bdf6d1cb7e8cfeb8730c1938285ce04da16652"
+      "sha256": "43694534f88407e23c32690fbe66cd798e4853769fc9a145273da874c389fc0b"
     }
   ]
 }
