@@ -41,16 +41,18 @@ def main() -> int:
         if not src.is_dir():
             print(f"missing {src}", file=sys.stderr)
             return 1
+        manifest = json.loads((src / "plugin.json").read_text(encoding="utf-8"))
+        version = manifest["version"]
         digest = _sha256_tree(src)
-        archive = out_dir / f"stella.{domain}-1.0.0.zip"
+        archive = out_dir / f"stella.{domain}-{version}.zip"
         write_signed_zip(src, archive, secret=secret)
         # URL is relative to catalog/ so the file stays portable (no machine paths).
         rel_url = os.path.relpath(archive, catalog_path.parent).replace("\\", "/")
         plugins.append(
             {
-                "pluginId": f"stella.{domain}",
-                "hostApi": "^1.0.0",
-                "version": "1.0.0",
+                "pluginId": manifest["id"],
+                "hostApi": manifest.get("hostApi", "^1.0.0"),
+                "version": version,
                 "url": rel_url,
                 "sha256": digest,
             }
