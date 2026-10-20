@@ -77,4 +77,4 @@ class CodexCliProvider(ManagedCliProvider):
             return {"status": "rejected", "error": {"code": "not_configured", "message": "CLI binary missing"}}
         workspace = Path(task["workspacePath"])
         write_goal_file(workspace, task.get("goal") or "")
-        return self._start_cli([binary, "exec", "--cd", str(workspace), task.get("goal") or ""], task, "codex-result.txt")
+        return self._start_cli([binary, "exec", "--skip-git-repo-check", "--cd", str(workspace), task.get("goal") or ""], task, "codex-result.txt")
