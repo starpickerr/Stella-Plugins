@@ -17,8 +17,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CORE = ROOT.parent / "Stella-Core"
-DOMAINS = ("bills", "calendar", "tasks", "email", "elearning", "briefing", "automation")
-
+DOMAINS = ("bills", "calendar", "tasks", "email", "elearning", "briefing", "automation", "agent-hub")
 
 def _package_files(root: Path):
     for path in sorted(p for p in root.rglob("*") if p.is_file()):
