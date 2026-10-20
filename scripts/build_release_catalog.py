@@ -5,11 +5,13 @@ Run from Stella-Plugins (or any cwd). Requires Stella-Core on PYTHONPATH and
 ``STELLA_PLUGIN_SIGNING_SECRET``. Writes ``dist/signed/*.zip`` and
 ``catalog/release.json`` with ``file://`` URLs so first-boot can install without
 machine-local ``path`` entries.
+
+Package digests must use Core ``_sha256_tree`` so they match ``write_signed_zip``
+and catalog verify (ignore caches/VCS).
 """
 
 from __future__ import annotations
 
-import hashlib
 import json
 import os
 import sys
@@ -19,26 +21,10 @@ ROOT = Path(__file__).resolve().parents[1]
 CORE = ROOT.parent / "Stella-Core"
 DOMAINS = ("bills", "calendar", "tasks", "email", "elearning", "briefing", "automation", "agent-hub")
 
-def _package_files(root: Path):
-    for path in sorted(p for p in root.rglob("*") if p.is_file()):
-        if "__pycache__" in path.parts or path.suffix in {".pyc", ".pyo"}:
-            continue
-        yield path
-
-
-def _tree_digest(root: Path) -> str:
-    h = hashlib.sha256()
-    for path in _package_files(root):
-        h.update(path.relative_to(root).as_posix().encode("utf-8"))
-        h.update(b"\0")
-        h.update(path.read_bytes())
-        h.update(b"\0")
-    return h.hexdigest()
-
-
 def main() -> int:
     if str(CORE) not in sys.path:
         sys.path.insert(0, str(CORE))
+    from core.plugins.package_ops import _sha256_tree
     from core.plugins.signing import write_signed_zip
 
     secret = os.environ.get("STELLA_PLUGIN_SIGNING_SECRET", "").encode("utf-8")
@@ -55,7 +41,7 @@ def main() -> int:
         if not src.is_dir():
             print(f"missing {src}", file=sys.stderr)
             return 1
-        digest = _tree_digest(src)
+        digest = _sha256_tree(src)
         archive = out_dir / f"stella.{domain}-1.0.0.zip"
         write_signed_zip(src, archive, secret=secret)
         # URL is relative to catalog/ so the file stays portable (no machine paths).
