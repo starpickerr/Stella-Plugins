@@ -56,6 +56,20 @@
       "version": "1.0.2",
       "path": "../plugins/agent-hub",
       "sha256": "9f57d064fc3fb2e8562bce4869cbc6de590afdf23869377805c383b75e1c85a5"
+    },
+    {
+      "pluginId": "stella.knowledge",
+      "hostApi": "^1.0.0",
+      "version": "1.0.0",
+      "path": "../plugins/knowledge",
+      "sha256": "b5564d45d7387c12bc1765e7fca17e5db2ae6f6da2ffa120ecc964f89d90dac6"
+    },
+    {
+      "pluginId": "stella.memory",
+      "hostApi": "^1.0.0",
+      "version": "1.0.0",
+      "path": "../plugins/memory",
+      "sha256": "e6c08a30f9e323ab3d4be156e92241d43c24f498bb2c87accd91204f35dd5591"
     }
   ]
 }

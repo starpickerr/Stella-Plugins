@@ -19,7 +19,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CORE = ROOT.parent / "Stella-Core"
-DOMAINS = ("bills", "calendar", "tasks", "email", "elearning", "briefing", "automation", "agent-hub")
+DOMAINS = ("bills", "calendar", "tasks", "email", "elearning", "briefing", "automation", "agent-hub", "knowledge", "memory")
 
 def main() -> int:
     if str(CORE) not in sys.path:
