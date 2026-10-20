@@ -53,9 +53,9 @@
     {
       "pluginId": "stella.agent-hub",
       "hostApi": "^1.0.0",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "path": "../plugins/agent-hub",
-      "sha256": "9f57d064fc3fb2e8562bce4869cbc6de590afdf23869377805c383b75e1c85a5"
+      "sha256": "50b485bdb80cf59ea9f2c0a85595904e56769ec768d33edac39159b58baaad3f"
     },
     {
       "pluginId": "stella.knowledge",
