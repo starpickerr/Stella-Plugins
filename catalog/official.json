@@ -23,20 +23,6 @@
       "sha256": "58b84370981076b3f6b77ac456d45337fb0dbf3c4a57d7a7932cf50dfbea3a02"
     },
     {
-      "pluginId": "stella.email",
-      "hostApi": "^1.0.0",
-      "version": "1.0.5",
-      "path": "../plugins/email",
-      "sha256": "7d0d7ea01dc093b80ca41b0286f41071352ae9f2a43bb1d28936897e4362602e"
-    },
-    {
-      "pluginId": "stella.elearning",
-      "hostApi": "^1.0.0",
-      "version": "1.0.6",
-      "path": "../plugins/elearning",
-      "sha256": "2296ea881902446eb6b75e099e7f50d34573074773f17932993e12a93cc756e4"
-    },
-    {
       "pluginId": "stella.briefing",
       "hostApi": "^1.0.0",
       "version": "1.1.4",
